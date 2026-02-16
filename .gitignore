@@ -1,0 +1,45 @@
+# Dependencias
+node_modules/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Cachés y compilaciones
+dist/
+build/
+.cache/
+.tmp/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Coverage de tests
+coverage/
+
+# Configuración de editores/IDE
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+
+# Archivos de configuración
+.zed
+.vscode
+
+# Lock files (para mantener el template agnóstico al gestor de paquetes)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
